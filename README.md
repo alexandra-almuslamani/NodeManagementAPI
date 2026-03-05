@@ -6,12 +6,7 @@
 ### Tech Stack
 - ASP.NET Core Web API
 - ASP.NET MVC
-- Onion Architecture
-    - Core Layer(Domain)
-    - Infrastructure Layer
-    - Service Layer
-    - Presentation Layer(API)
-    - Web Layer(UI)
+- Onion Architecture (`Core Layer(Domain)` | `Infrastructure Layer` | `Service Layer` | `Presentation Layer(API)` | `Web Layer(UI)`)
 - Entity Framework Core
 - AutoMapper
 
@@ -19,10 +14,7 @@
 ### ✅ Node
 Helps to create nodes that form the hierarchical structure of something.
 
-<details>
-  <summary> 📑 Details : </summary>
-
-#### 📌 What was completed :  
+#### 📌 What I completed :  
 | Endpoint | Route | Method | Description |
 |----------|-------|--------|-------------|
 | Add Node | `/api/node/AddNode` | POST | Adds a new node |
@@ -46,15 +38,13 @@ Helps to create nodes that form the hierarchical structure of something.
   - `INodeService.cs` - 🔗 [code](https://github.com/alexandra-almuslamani/NodeManagementAPI/blob/df14ca6a9139963b88f3d1707260431772c4e919/INodeService.cs)  
   - `NodeService.cs` - 🔗 [code](https://github.com/alexandra-almuslamani/NodeManagementAPI/blob/df14ca6a9139963b88f3d1707260431772c4e919/NodeService.cs)
   - `NodeController.cs` - 🔗 [code](https://github.com/alexandra-almuslamani/NodeManagementAPI/blob/df14ca6a9139963b88f3d1707260431772c4e919/NodeController.cs)  
-</details>
+
+<hr>
 
 ### ✅ Type of Node
 Define different node categories based on their roles or purposes within the hierarchical structure.
 
-<details>
-  <summary> 📑 Details : </summary>
-
-#### 📌 What was completed :  
+#### 📌 What I completed :  
 | Endpoint | Route | Method | Description |
 |----------|-------|--------|-------------|
 | Add Node Type | `/api/nodetype/AddNodeType` | POST | Adds a new node type |
@@ -71,7 +61,8 @@ Define different node categories based on their roles or purposes within the hie
   - `INodeTypeService.cs` - 🔗 [code](https://github.com/alexandra-almuslamani/NodeManagementAPI/blob/df14ca6a9139963b88f3d1707260431772c4e919/INodeTypeService.cs)
   - `NodeTypeService.cs` - 🔗 [code](https://github.com/alexandra-almuslamani/NodeManagementAPI/blob/df14ca6a9139963b88f3d1707260431772c4e919/NodeTypeService.cs)
   - `NodeTypeController.cs` - 🔗 [code](https://github.com/alexandra-almuslamani/NodeManagementAPI/blob/df14ca6a9139963b88f3d1707260431772c4e919/NodeTypeController.cs)  
-</details>
+
+<hr>
 
 #### Other classes:
   - `IRepository.cs` - 🔗 [code](https://github.com/alexandra-almuslamani/NodeManagementAPI/blob/df14ca6a9139963b88f3d1707260431772c4e919/IRepository.cs)  
@@ -80,7 +71,7 @@ Define different node categories based on their roles or purposes within the hie
   - `Program.cs` - 🔗 [code](https://github.com/alexandra-almuslamani/NodeManagementAPI/blob/df14ca6a9139963b88f3d1707260431772c4e919/Program.cs)  
 
 
-My work focuses on:
+🔸 My work focuses on:
 - Implementing Node API endpoints
 - Node service logic
 - Node DTOs and mappings
