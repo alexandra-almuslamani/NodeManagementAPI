@@ -14,6 +14,8 @@ namespace NodeManagementAPI.Core.IRepositories
         Task<ResultDto> RemoveAsync(T entity);
         Task<ResultDto> RemoveAsync(int id);
         Task<IEnumerable<T?>> GetByConditionAsync(Expression<Func<T, bool>> condition);
+
+        // Custom method added by Alexandra
         Task<IEnumerable<Node>> GetChildrenAsync(int parentId);
     }
 }
