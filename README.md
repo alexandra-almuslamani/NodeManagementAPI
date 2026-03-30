@@ -1,7 +1,7 @@
-# Node Management API Project Overview
+# Web Application Project Overview
 ---
-- The full project was developed with a team; this repo showcases my contributions only.
-- It includes the backend APIs, DTOs, services, controllers, and methods that I personally implemented.
+- The full web application project was developed with a team; this repo showcases my Backend (APIs, DTOs, services, controllers, and methods that I personally implemented) only.
+- In addition to backend development, I contributed to building the user interface using HTML, CSS, JavaScript, and Bootstrap within the MVC views.
 
 ### Tech Stack
 - ASP.NET Core Web API
@@ -71,8 +71,7 @@ Define different node categories based on their roles or purposes within the hie
   - `Program.cs` - 🔗 [code](https://github.com/alexandra-almuslamani/NodeManagementAPI/blob/df14ca6a9139963b88f3d1707260431772c4e919/Program.cs)  
 
 
-🔸 My work focuses on:
-- Implementing Node API endpoints
-- Node service logic
-- Node DTOs and mappings
-- Hierarchical node handling (parent/children structure)
+🔸 My contributions include:
+- Designed and implemented Node API endpoints, services, DTOs, and hierarchical node logic (parent/children relationships).
+- Developed MVC views for the frontend, integrating backend APIs seamlessly.
+- Built and styled UI components: forms, tables, modals, and interactive elements using HTML, CSS, Bootstrap, and JavaScript.
